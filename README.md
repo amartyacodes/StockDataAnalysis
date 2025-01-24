@@ -7,7 +7,7 @@ The data was extracted using Yahoo Finance API for the MRF stock from the year o
 ## Methodology of Labelling
 
 The data points were considered as a possible candidate of breakout using the following logic.
-At first, we check if consolidation occured. Meaning, if the stock traded maintaining a very narrow range in the last 15 days. If min close value from last 15 days is greater than 98% of the max close from last 15 days, we can say consolidation occured. If consolidation occured, then, if the close price is greater than max close from last 15 days or close price is less than min close from last 15 days, we identify the stock as breakout candidate. 
+At first, we check if consolidation occured. Meaning, if the stock traded maintaining a very narrow range in the last 15 days. If min close value from last 15 days is greater than 80% of the max close from last 15 days, we can say consolidation occured. If consolidation occured, then, if the close price is greater than max close from last 15 days or close price is less than min close from last 15 days, we identify the stock as breakout candidate. 
 
 ## ML Techniques Used
 
